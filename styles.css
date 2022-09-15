@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-#card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#card-right {
+.card-right {
     padding: 1.5rem;
     background-color: white;
     border-radius: 0 0 1rem 1rem;
@@ -41,7 +41,7 @@ img {
     border-radius: 1rem 1rem 0 0;
 }
 
-#card-left {
+.card-left {
     display: flex;    
     margin-bottom: -0.5rem;
 }
@@ -58,13 +58,13 @@ h3 {
     letter-spacing: 0.2rem;
 }
 
-#prices {
+.prices {
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
-#price-new {
+.price-new {
     font-family: 'Fraunces', serif;
     font-size: 30px;
     color: hsl(158, 36%, 37%);
@@ -105,7 +105,7 @@ button:hover {
         align-items: center;
     }
     
-    #card {
+    .card {
         display: grid;
         max-width: 610px;
         min-height: auto;
@@ -114,14 +114,14 @@ button:hover {
         grid-auto-flow: column;
     }
 
-    #card-right {
+    .card-right {
         border-radius: 0 1rem 1rem 0;
         display: grid;
         padding: 40px;
         /* flex: 1; */
     }
 
-    #card-left {
+    .card-left {
         background: url(./images/image-product-desktop.jpg);
         background-size: cover;
         margin-bottom: 0;
