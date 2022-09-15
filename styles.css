@@ -22,6 +22,8 @@ body {
     min-height: calc(100vh - 0.1px);
     margin: 0 1.5rem;
     max-width: 350px;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #card-right {
