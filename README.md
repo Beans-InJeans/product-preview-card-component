@@ -16,7 +16,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-My first fronendmentor challenge.
+My first Frontend Mentor challenge, and my first responsive project for mobile and desktop.
 
 ### The challenge
 
@@ -47,6 +47,7 @@ Users should be able to:
 
 - How to use grids and flexbox with an image
 - How to change hover state and add animation time
+- Responsive design
 
 ### Continued development
 
